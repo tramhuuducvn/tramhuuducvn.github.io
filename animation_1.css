@@ -1,24 +1,28 @@
-body{
-	background-color: #7DC4A1;
+body {
+	background-color: #D4C4FB;
 }
 
-h1{
-	text-align: center;
-	border: 2px solid powderblue;
-	padding: 10px;
-	margin: 50px; /*space out side the border*/
+#main_ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #95B931;
 }
 
-#paragraph_1{
-	text-align: center;
-	color: green;
-	font-size: 35px;
+#main_li{
+	float: left;
 }
 
-#paragraph_2{
-	text-align: center;
+#li_a{
+	display: block;
 	color: black;
-	font-size: 50px;
-	border: 2px solid red;
+	text-align: center;
+	padding: 16px;
+	text-decoration: none;
+	font-size: 36px;
 }
 
+#li_a:hover{
+	background-color: #5E7324;
+}
